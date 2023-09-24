@@ -87,7 +87,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 90%;
+    top: 95%;
 }
 .about h3{
     text-align: center;
@@ -179,4 +179,27 @@ p{
         grid-template-columns: 1fr;
     }
 
+    .buscador-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buscador-container input{
+        background-color: transparent;
+        border: 1px solid #a0a0a0;
+        color: #fff;
+        padding: 0.7em;
+        width: 300px;
+    }
+
+    .buscador-container button{
+        background-color: #6dbd3b;
+        border: none;
+        cursor: pointer;
+        border-radius: 30px;
+        width: 175px;
+        height: 35px;
+        color: #fff;
+    }
 }
