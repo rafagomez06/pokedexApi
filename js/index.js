@@ -59,7 +59,8 @@ let getPokemon = () => {
                 }
             })        
                 .catch(() => {
-                    result.innerHTML = `<h3 class="msg">Ha ocurrido un Error :( </h3>`;
+                    result.innerHTML = `<h3 class="msg">Ha ocurrido un Error :( <br>
+                        ingresa Número ó nombre correcto del Pokemón.</h3>`;
                 });                   
     }
 };//Fin getPokemon
